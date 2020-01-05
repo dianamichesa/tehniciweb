@@ -1,0 +1,104 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(Cat-Wallpaper-High-Resolution.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: black;
+    text-decoration: solid;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.main-nav li.active a {
+    border: 1px solid black;
+}
+
+.main-nav li a:hover {
+    border: 1px solid black;
+}
+
+.logo img {
+    width: 9%;
+    float: left;
+    margin-left:5%;
+    height: auto;
+}
+
+.socialm {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font-family:cursive;
+}
+
+.socialm > h1,
+.insta {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.facebook {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.snapchat {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.adresa {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+main {
+    font-family:cursive;
+    width:100%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    header {
+        background-image: url(Cat-Wallpaper-High-Resolution.jpg);
+        height: 2vh;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    header {
+        background-image: url(Cat-Wallpaper-High-Resolution.jpg);
+        height: 2vh;
+        background-size: cover;
+        background-position: center;
+    }
+    main {
+        margin-top:100px;
+    }
+}
